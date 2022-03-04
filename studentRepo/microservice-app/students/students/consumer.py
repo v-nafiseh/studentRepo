@@ -9,9 +9,9 @@ connection = pika.BlockingConnection(connection_parameters)
 
 channel = connection.channel()
 
-channel.queue_declare(queue='letterbox')
+channel.queue_declare(queue='student')
 
-channel.basic_consume(queue='letterbox', auto_ack=True,
+channel.basic_consume(queue='student', auto_ack=True,
     on_message_callback=on_message_received)
 
 print("Starting Consuming")
