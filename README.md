@@ -1,5 +1,5 @@
-### studentRepo | software testing and object oriented design of systems
-the puspose of this project is to use Nginx as a gateway for a simple microservice web app as one of the known design patterns while designing the architecture of a system.
+### studentRepo | software testing and object oriented design of systems course
+the puspose of this project is to use Nginx as a gateway for a simple microservice web app as one of the known design patterns while designing the architecture of a system. (a continue to the developing of the microservice webapp)
 ##### . manage service for the professors to upload the books
 ##### . books services for the students to view the books and have access to them
 ##### . connection based on RabbitMQ queueing
